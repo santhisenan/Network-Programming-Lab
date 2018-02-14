@@ -1,0 +1,348 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.6.29)  17 JAN 2018 11:21
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**exp1.tex
+(./exp1.tex
+LaTeX2e <2017/01/01> patch level 3
+Babel <3.9r> and hyphenation patterns for 3 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listing/listing.sty
+Package: listing 1999/05/25
+
+Package `listing', V1.2, <1999/05/25>
+\c@listing=\count87
+) (./exp1.aux)
+\openout1 = `exp1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 7.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 7.
+
+Overfull \hbox (29.9002pt too wide) in paragraph at lines 24--24
+[]\OT1/cmtt/m/n/12 { link | addr | addrlabel | route | rule | neigh | ntable | 
+tunnel |[] 
+ []
+
+
+Overfull \hbox (85.47523pt too wide) in paragraph at lines 24--24
+[]\OT1/cmtt/m/n/12 tuntap maddr | mroute | mrule | monitor | xfrm | netns | l2t
+p | tcp_metrics }[] 
+ []
+
+
+Overfull \hbox (159.57527pt too wide) in paragraph at lines 49--49
+[]\OT1/cmtt/m/n/12 64 bytes from maa03s29-in-f14.1e100.net (172.217.160.142): i
+cmp_seq=1 ttl=52 time=14.4 ms[] 
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (159.57527pt too wide) in paragraph at lines 49--49
+[]\OT1/cmtt/m/n/12 64 bytes from maa03s29-in-f14.1e100.net (172.217.160.142): i
+cmp_seq=2 ttl=52 time=14.0 ms[] 
+ []
+
+
+Overfull \hbox (54.60022pt too wide) in paragraph at lines 77--77
+[]\OT1/cmtt/m/n/12 traceroute to google.com (172.217.160.142), 30 hops max, 60 
+byte packets[] 
+ []
+
+
+Overfull \hbox (29.9002pt too wide) in paragraph at lines 77--77
+[] \OT1/cmtt/m/n/12 3  172.31.207.142 (172.31.207.142)  15.920 ms  16.742 ms  1
+7.182 ms[] 
+ []
+
+
+Overfull \hbox (17.5502pt too wide) in paragraph at lines 77--77
+[] \OT1/cmtt/m/n/12 4  172.31.90.126 (172.31.90.126)  22.002 ms  22.016 ms  22.
+010 ms[] 
+ []
+
+
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 77--77
+[] \OT1/cmtt/m/n/12 5  172.31.10.66 (172.31.10.66)  20.404 ms  21.110 ms  21.12
+4 ms[] 
+ []
+
+
+Overfull \hbox (29.9002pt too wide) in paragraph at lines 77--77
+[] \OT1/cmtt/m/n/12 8  172.31.110.123 (172.31.110.123)  15.817 ms  16.571 ms  1
+9.205 ms[] 
+ []
+
+
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 77--77
+[] \OT1/cmtt/m/n/12 9  172.31.10.78 (172.31.10.78)  18.277 ms  18.286 ms  18.29
+6 ms[] 
+ []
+
+
+Overfull \hbox (42.25021pt too wide) in paragraph at lines 77--77
+[]\OT1/cmtt/m/n/12 10  112.133.203.182 (112.133.203.182)  19.709 ms  20.504 ms 
+ 21.147 ms[] 
+ []
+
+
+Overfull \hbox (17.5502pt too wide) in paragraph at lines 77--77
+[]\OT1/cmtt/m/n/12 11  72.14.233.204 (72.14.233.204)  21.150 ms  21.144 ms  21.
+497 ms[] 
+ []
+
+
+Overfull \hbox (29.9002pt too wide) in paragraph at lines 77--77
+[]\OT1/cmtt/m/n/12 12  209.85.241.197 (209.85.241.197)  17.974 ms  18.061 ms  1
+8.367 ms[] 
+ []
+
+
+Overfull \hbox (104.00024pt too wide) in paragraph at lines 77--77
+[]\OT1/cmtt/m/n/12 13  maa03s29-in-f14.1e100.net (172.217.160.142)  14.142 ms  
+14.746 ms  15.182 ms[] 
+ []
+
+[2]
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 96--96
+[]\OT1/cmtt/m/n/12 netstat [address_family_options] [--tcp|-t] [--udp|-u] [--ra
+w|-w][] 
+ []
+
+
+Overfull \hbox (29.9002pt too wide) in paragraph at lines 96--96
+[]        \OT1/cmtt/m/n/12 [--listening|-l] [--all|-a] [--numeric|-n] [--numeri
+c-hosts][] 
+ []
+
+
+Overfull \hbox (60.77522pt too wide) in paragraph at lines 120--120
+[]\OT1/cmtt/m/n/12 Proto Recv-Q Send-Q Local Address           Foreign Address 
+        State[] 
+ []
+
+
+Overfull \hbox (85.47523pt too wide) in paragraph at lines 120--120
+[]\OT1/cmtt/m/n/12 tcp        0      0 debian:36292            klecker2.snt.utw
+en:http TIME_WAIT[] 
+ []
+
+
+Overfull \hbox (97.82524pt too wide) in paragraph at lines 120--120
+[]\OT1/cmtt/m/n/12 tcp        0      0 debian:44176            ws203-233-252-12
+2.:http ESTABLISHED[] 
+ []
+
+
+Overfull \hbox (97.82524pt too wide) in paragraph at lines 120--120
+[]\OT1/cmtt/m/n/12 tcp        0      0 debian:44180            ws203-233-252-12
+2.:http ESTABLISHED[] 
+ []
+
+
+Overfull \hbox (85.47523pt too wide) in paragraph at lines 120--120
+[]\OT1/cmtt/m/n/12 tcp        0      0 debian:36140            ocsp.comodoca.co
+m:http  TIME_WAIT[] 
+ []
+
+
+Overfull \hbox (97.82524pt too wide) in paragraph at lines 120--120
+[]\OT1/cmtt/m/n/12 tcp        0      0 debian:48060            maa03s21-in-f10.
+1:https ESTABLISHED[] 
+ []
+
+
+Overfull \hbox (97.82524pt too wide) in paragraph at lines 120--120
+[]\OT1/cmtt/m/n/12 tcp        0      0 debian:58094            ec2-46-51-218-82
+.:https ESTABLISHED[] 
+ []
+
+
+Overfull \hbox (97.82524pt too wide) in paragraph at lines 120--120
+[]\OT1/cmtt/m/n/12 tcp        0      0 debian:59890            maa03s29-in-f3.1
+e:https ESTABLISHED[] 
+ []
+
+
+Overfull \hbox (97.82524pt too wide) in paragraph at lines 120--120
+[]\OT1/cmtt/m/n/12 tcp        0      0 debian:44178            ws203-233-252-12
+2.:http ESTABLISHED[] 
+ []
+
+
+Overfull \hbox (97.82524pt too wide) in paragraph at lines 120--120
+[]\OT1/cmtt/m/n/12 tcp        0      0 debian:58116            ec2-46-51-218-82
+.:https ESTABLISHED[] 
+ []
+
+
+Overfull \hbox (97.82524pt too wide) in paragraph at lines 120--120
+[]\OT1/cmtt/m/n/12 tcp        0      0 debian:37800            104.27.6.18:http
+s       ESTABLISHED[] 
+ []
+
+
+Overfull \hbox (97.82524pt too wide) in paragraph at lines 120--120
+[]\OT1/cmtt/m/n/12 tcp        0      0 debian:40972            ec2-52-77-181-19
+8:https ESTABLISHED[] 
+ []
+
+
+Overfull \hbox (141.05026pt too wide) in paragraph at lines 120--120
+[]\OT1/cmtt/m/n/12 unix  8      [ ]         DGRAM                    11556    /
+run/systemd/journal/socket[] 
+ []
+
+
+Overfull \hbox (147.22527pt too wide) in paragraph at lines 120--120
+[]\OT1/cmtt/m/n/12 unix  18     [ ]         DGRAM                    11573    /
+run/systemd/journal/dev-log[] 
+ []
+
+
+Overfull \hbox (141.05026pt too wide) in paragraph at lines 120--120
+[]\OT1/cmtt/m/n/12 unix  2      [ ]         DGRAM                    11578    /
+run/systemd/journal/syslog[] 
+ []
+
+
+Overfull \hbox (134.87526pt too wide) in paragraph at lines 120--120
+[]\OT1/cmtt/m/n/12 unix  2      [ ]         DGRAM                    91235    /
+run/wpa_supplicant/wlp2s0[] 
+ []
+
+[3]
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 175--175
+[]  \OT1/cmtt/m/n/12 Registrar Abuse Contact Email: abusecomplaints@markmonitor
+.com[] 
+ []
+
+
+Overfull \hbox (128.70026pt too wide) in paragraph at lines 175--175
+[]  \OT1/cmtt/m/n/12 Domain Status: clientDeleteProhibited https://icann.org/ep
+p#clientDeleteProhibited[] 
+ []
+
+
+Overfull \hbox (153.40027pt too wide) in paragraph at lines 175--175
+[]  \OT1/cmtt/m/n/12 Domain Status: clientTransferProhibited https://icann.org/
+epp#clientTransferProhibited[] 
+ []
+
+
+Overfull \hbox (128.70026pt too wide) in paragraph at lines 175--175
+[]  \OT1/cmtt/m/n/12 Domain Status: clientUpdateProhibited https://icann.org/ep
+p#clientUpdateProhibited[] 
+ []
+
+
+Overfull \hbox (128.70026pt too wide) in paragraph at lines 175--175
+[]  \OT1/cmtt/m/n/12 Domain Status: serverDeleteProhibited https://icann.org/ep
+p#serverDeleteProhibited[] 
+ []
+
+
+Overfull \hbox (153.40027pt too wide) in paragraph at lines 175--175
+[]  \OT1/cmtt/m/n/12 Domain Status: serverTransferProhibited https://icann.org/
+epp#serverTransferProhibited[] 
+ []
+
+
+Overfull \hbox (128.70026pt too wide) in paragraph at lines 175--175
+[]  \OT1/cmtt/m/n/12 Domain Status: serverUpdateProhibited https://icann.org/ep
+p#serverUpdateProhibited[] 
+ []
+
+[4]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ” in font cmr12!
+Missing character: There is no â in font cmtt12!
+Missing character: There is no € in font cmtt12!
+Missing character: There is no “ in font cmtt12!
+
+Overfull \hbox (23.7252pt too wide) in paragraph at lines 192--192
+[]\OT1/cmtt/m/n/12 arp s <ip_address> <mac_address> [pub] to add an entry in th
+e table[] 
+ []
+
+Missing character: There is no â in font cmtt12!
+Missing character: There is no € in font cmtt12!
+Missing character: There is no “ in font cmtt12!
+Missing character: There is no â in font cmtt12!
+Missing character: There is no € in font cmtt12!
+Missing character: There is no “ in font cmtt12!
+[5]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 223.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 223.
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ” in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ” in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ” in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ” in font cmr12!
+ [6] (./exp1.aux) ) 
+Here is how much of TeX's memory you used:
+ 264 strings out of 494945
+ 3086 string characters out of 6181032
+ 55664 words of memory out of 5000000
+ 3632 multiletter control sequences out of 15000+600000
+ 6489 words of font info for 24 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 22i,6n,19p,487b,243s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on exp1.pdf (6 pages, 75545 bytes).
+PDF statistics:
+ 43 PDF objects out of 1000 (max. 8388607)
+ 29 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
