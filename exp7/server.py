@@ -2,7 +2,7 @@ import socket
 import time
 
 # create a socket object
-ServerSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+ServerSocket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 # get local machine name
 host = socket.gethostname()
