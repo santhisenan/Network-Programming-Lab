@@ -40,6 +40,58 @@ Stream and datagram sockets also use IP port numbers to distinguish multiple app
 
 
 \section{TCP}
+The Transmission Control Protocol (TCP) is one of the main protocols of the Internet protocol suite. It originated in the initial network implementation in which it complemented the Internet Protocol (IP). Therefore, the entire suite is commonly referred to as TCP/IP. TCP provides reliable, ordered, and error-checked delivery of a stream of octets (bytes) between applications running on hosts communicating by an IP network. Major Internet applications such as the World Wide Web, email, remote administration, and file transfer rely on TCP. Applications that do not require reliable data stream service may use the User Datagram Protocol (UDP), which provides a connectionless datagram service that emphasizes reduced latency over reliability.
 
-\subsection{}
+\section{Code} 
+\subsection{client.py}
+\begin{verbatim}
+# client
+import socket
+
+# create a socket object
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+# get a local machine name
+host = socket.gethostname()
+port = 9999
+
+# connection to hostname on port
+s.connect((host, port)) 
+
+# recieve no more than 1024 bytes
+tm = s.recv(1024)
+
+s.close()
+
+print("Time got from the server is %s" % tm.decode('ascii'))
+\end{verbatim}
+\subsection{server.py}
+\begin{verbatim}
+import socket
+import time
+
+# create a socket object
+ServerSocket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+
+# get local machine name
+host = socket.gethostname()
+port = 9999
+
+# bind to the port
+ServerSocket.bind((host, port))
+
+ServerSocket.listen(5)
+
+while True:
+    # establish a connection
+    ClientSocket, addr = ServerSocket.accept()
+
+    print("Got a connection from %s" % str(addr))
+    CurrentTime = time.ctime(time.time()) + "\r\n"
+    ClientSocket.send(CurrentTime.encode('ascii'))
+    ClientSocket.close()
+\end{verbatim}
+
+\section{Output}
+
 \end{document}
