@@ -1,20 +1,16 @@
 import socket
 import time
 
-# create a server object
-ServerSocket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+UDP_IP = "127.0.0.1"
+UDP_PORT = 5005
 
-#get local machine name
-host = socket.gethostname()
-
-port = 5005
-
-#bind to port
-ServerSocket.bind((host, port))
+sock = socket.socket(socket.AF_INET, # Internet
+                     socket.SOCK_DGRAM) # UDP
+sock.bind((UDP_IP, UDP_PORT))
 
 while True:
-    data, addr = ServerSocket.recvfrom(1024)
-    print(data)
-    print addr
-
-
+    # ClientSocket, addr = sock.accept()
+    message, ClientSocket = sock.recvfrom(1024) # buffer size is 1024 bytes
+    CurrentTime = time.ctime(time.time()) + "\r\n"
+    sock.sendto(CurrentTime.encode('ascii'),ClientSocket)
+    # sock.close()
