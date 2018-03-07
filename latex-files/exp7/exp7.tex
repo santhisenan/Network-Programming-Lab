@@ -1,12 +1,15 @@
 \documentclass[a4paper,12pt]{article}
+
 \usepackage{listing}
+\usepackage{graphicx}
+
 \begin{document}
 
 
-    \title{7. Implementation of client server communication using socket programming and TCP as transport layer protocol}
-    \author{Santhisenan A}
-    \date{\today}
-    \maketitle
+\title{7. Implementation of client server communication using socket programming and TCP as transport layer protocol}
+\author{Santhisenan A}
+\date{\today}
+\maketitle
 
 \section{Socket Programming}
 
@@ -24,9 +27,9 @@ Socket-based software usually runs on two separate computers on the network, but
 Socket interfaces can be divided into three categories:
 
 \begin{itemize}
-    \item \textit{Stream sockets}, the most common type, requires that the two communicating parties first establish a socket connection, after which any data passed through that connection will be guaranteed to arrive in the same order in which it was sent - so-called connection-oriented programming model.
-    \item \textit{Datagram sockets} offer "connection-less" semantics. With datagrams, connections are implicit rather than explicit as with streams. Either party simply sends datagrams as needed and waits for the other to respond; messages can be lost in transmission or received out of order, but it is the application's responsibility and not the sockets to deal with these problems. Implementing datagram sockets can give some applications a performance boost and additional flexibility compared to using stream sockets, justifying their use in some situations.
-    \item The third type of socket -- \textit{the raw socket} -- bypasses the library's built-in support for standard protocols like TCP and UDP. Raw sockets are used for custom low-level protocol development.
+	\item \textit{Stream sockets}, the most common type, requires that the two communicating parties first establish a socket connection, after which any data passed through that connection will be guaranteed to arrive in the same order in which it was sent - so-called connection-oriented programming model.
+	\item \textit{Datagram sockets} offer "connection-less" semantics. With datagrams, connections are implicit rather than explicit as with streams. Either party simply sends datagrams as needed and waits for the other to respond; messages can be lost in transmission or received out of order, but it is the application's responsibility and not the sockets to deal with these problems. Implementing datagram sockets can give some applications a performance boost and additional flexibility compared to using stream sockets, justifying their use in some situations.
+	\item The third type of socket -- \textit{the raw socket} -- bypasses the library's built-in support for standard protocols like TCP and UDP. Raw sockets are used for custom low-level protocol development.
 \end{itemize}
 
 \subsection{Socket support in network protocols}
@@ -93,5 +96,19 @@ while True:
 \end{verbatim}
 
 \section{Output}
+
+\pagebreak
+\begin{figure}
+	\includegraphics[width=\linewidth]{./tcp-client.png}
+	\caption{Client}
+	\label{fig:client}
+\end{figure}
+
+\begin{figure}
+	\includegraphics[width=\linewidth]{tcp-server.png}
+	\caption{Server}
+	\label{fig:server}
+\end{figure}
+
 
 \end{document}

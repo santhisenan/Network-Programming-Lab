@@ -18,3 +18,5 @@ tm = s.recv(1024)
 s.close()
 
 print("Time got from the server is %s" % tm.decode('ascii'))
+
+
