@@ -5,7 +5,7 @@ import socket
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # get a local machine name
-host = "192.168.1.77"
+host = "127.0.0.1"
 
 port = 9999
 
