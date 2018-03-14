@@ -13,12 +13,12 @@ def printMessageFromServer():
 
 printMessageFromServer()
 
-print ('... Enter HELO: <domain-name> ... \n')
-print('... Enter MAIL FROM: <mail-address-of-sender> ... \n')
-print('... Enter RCPT TO: <mail-address-of-recipient> ... \n')
-print('... Enter DATA ... \n')
-print('... Enter the contents of the message ...')
-print('... Enter QUIT ... \n')
+print (' Enter HELO: <domain-name> \n')
+print(' Enter MAIL FROM: <mail-address-of-sender> \n')
+print(' Enter RCPT TO: <mail-address-of-recipient> \n')
+print(' Enter DATA \n')
+print(' Enter the contents of the message')
+print(' Enter QUIT \n')
 request = input()
 if (request[:4] == 'HELO'):
     clientSocket.send(request.encode())
