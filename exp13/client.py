@@ -11,14 +11,15 @@ def printMessageFromServer():
     message = clientSocket.recv(1024)
     print (message.decode())
 
-print(==========================================)
+print('==========================================')
 print ('HELO: <domain-name>')
 print('MAIL FROM: <mail-address-of-sender>')
 print('RCPT TO: <mail-address-of-recipient>')
 print('DATA')
 print('the contents of the message')
 print('QUIT')
-print(==========================================)
+print('==========================================')
+
 print("\n")
 
 printMessageFromServer()
