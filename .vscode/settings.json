@@ -1,4 +1,5 @@
 {
     "latex-workshop.debug.showUpdateMessage": false,
-    "python.linting.enabled": false
+    "python.linting.enabled": false,
+    "latex-workshop.message.update.show": false
 }
